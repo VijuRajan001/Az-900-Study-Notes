@@ -11,7 +11,7 @@ High availability is a characteristic of your application which specifies certai
 
 ## How does azure help you make systems highly available ?
 
-- Many azure services come with published SLA's. Such as azure functions, app service, azure ad [Azure SLA summary](https://azure.microsoft.com/en-in/support/legal/sla/summary/) 
+- Many azure services come with published SLA's. Such as azure functions, app service, azure ad refer [Azure SLA summary](https://azure.microsoft.com/en-in/support/legal/sla/summary/) 
 
 - You can use azure to replicate your services across availability zones or region pairs
 

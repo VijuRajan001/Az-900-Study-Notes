@@ -7,4 +7,5 @@
 5. Deploy two or more VM's to different geographies
 6. Vertically scaling your VM in azure
 7. Horizontally scaling your VM in azure
-8. Setup autoscaling
+8. Setup autoscaling for VM's
+
