@@ -53,6 +53,8 @@ and storage tiers
 - describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for
   MySQL, Azure Database for PostgreSQL, and SQL Managed Instance
 - describe the benefits and usage of Azure Marketplace
+
+
 Describe core solutions and management tools on Azure (10-15%)
 Describe core solutions available in Azure
 - describe the benefits and usage of Internet of Things (IoT) Hub, IoT Central, and Azure
@@ -62,9 +64,7 @@ Describe core solutions available in Azure
 - describe the benefits and usage of Azure Machine Learning, Cognitive Services and
   Azure Bot Service
 - describe the benefits and usage of serverless computing solutions that include Azure
-
 Functions and Logic Apps
-
 - describe the benefits and usage of Azure DevOps, GitHub, GitHub Actions, and Azure
   DevTest Labs
   
