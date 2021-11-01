@@ -38,6 +38,7 @@ Remember that, there is no direct way to restore a deleted resource group. Delet
 You can try raising a ticket to Microsoft to restore it back.
 We can also try to find the deployment template for the resources that we created earlier in our deleted resource group and then we can use the same template while creating a new one.
 
+
 # Properties
 
 In most cases, a child resource can't be moved independently from its parent resource. Child resources have a resource type in the format of <resource-provider-namespace>/<parent-resource>/<child-resource>. For example, Microsoft.ServiceBus/namespaces/queues is a child resource of Microsoft.ServiceBus/namespaces. When you move the parent resource, the child resource is automatically moved with it. 
@@ -49,5 +50,9 @@ The resources you include in a resource group can be located in different Azure 
 When a resource group is deleted, all resources in the group are deleted 
 
 Group limits: you can deploy up to 800 instances of a resource type in each resource group – with [some exceptions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resources-without-resource-group-limit).
+
+The resource group stores metadata about the resources. When you specify a location for the resource group, you're specifying where that metadata is stored.    
+
+If the resource group's region is temporarily unavailable, you can't update resources in the resource group because the metadata is unavailable
 
 
